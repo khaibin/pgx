@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/jackc/pgconn"
-	"github.com/jackc/pgx/v4"
+	"github.com/khaibin/pgx/v4"
 	"github.com/stretchr/testify/require"
 	errors "golang.org/x/xerrors"
 )

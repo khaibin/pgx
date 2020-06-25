@@ -12,7 +12,7 @@ import (
 	"github.com/jackc/pgconn/stmtcache"
 	"github.com/jackc/pgproto3/v2"
 	"github.com/khaibin/pgtype"
-	"github.com/jackc/pgx/v4/internal/sanitize"
+	"github.com/khaibin/pgx/v4/internal/sanitize"
 )
 
 const (
@@ -187,7 +187,7 @@ func connect(ctx context.Context, config *ConnConfig) (c *Conn, err error) {
 	originalConfig := config
 
 	// This isn't really a deep copy. But it is enough to avoid the config.Config.OnNotification mutation from affecting
-	// other connections with the same config. See https://github.com/jackc/pgx/issues/618.
+	// other connections with the same config. See https://github.com/khaibin/pgx/issues/618.
 	{
 		configCopy := *config
 		config = &configCopy

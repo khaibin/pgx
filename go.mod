@@ -1,4 +1,4 @@
-module github.com/jackc/pgx/v4
+module github.com/khaibin/pgx/v4
 
 go 1.12
 

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/jackc/pgx/v4"
+	"github.com/khaibin/pgx/v4"
 )
 
 func Example_JSON() {

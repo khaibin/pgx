@@ -8,7 +8,7 @@ import (
 	"strconv"
 
 	"github.com/khaibin/pgtype"
-	"github.com/jackc/pgx/v4"
+	"github.com/khaibin/pgx/v4"
 	errors "golang.org/x/xerrors"
 )
 

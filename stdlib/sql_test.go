@@ -13,8 +13,8 @@ import (
 	"time"
 
 	"github.com/jackc/pgconn"
-	"github.com/jackc/pgx/v4"
-	"github.com/jackc/pgx/v4/stdlib"
+	"github.com/khaibin/pgx/v4"
+	"github.com/khaibin/pgx/v4/stdlib"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
@@ -576,7 +576,7 @@ func TestConnRaw(t *testing.T) {
 	})
 }
 
-// https://github.com/jackc/pgx/issues/673
+// https://github.com/khaibin/pgx/issues/673
 func TestReleaseConnWithTxInProgress(t *testing.T) {
 	testWithAndWithoutPreferSimpleProtocol(t, func(t *testing.T, db *sql.DB) {
 		c1, err := stdlib.AcquireConn(db)
@@ -942,7 +942,7 @@ func TestQueryLifeCycle(t *testing.T) {
 	})
 }
 
-// https://github.com/jackc/pgx/issues/409
+// https://github.com/khaibin/pgx/issues/409
 func TestScanJSONIntoJSONRawMessage(t *testing.T) {
 	testWithAndWithoutPreferSimpleProtocol(t, func(t *testing.T, db *sql.DB) {
 		var msg json.RawMessage
