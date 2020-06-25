@@ -14,7 +14,7 @@ import (
 
 	"github.com/jackc/pgconn"
 	"github.com/jackc/pgconn/stmtcache"
-	"github.com/jackc/pgtype"
+	"github.com/khaibin/pgtype"
 	"github.com/jackc/pgx/v4"
 	"github.com/stretchr/testify/require"
 )

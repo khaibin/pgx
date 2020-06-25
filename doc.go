@@ -161,7 +161,7 @@ is recommended that this situation be avoided by implementing pgx interfaces on 
 
 Composite types and row values
 
-Row values and composite types are represented as pgtype.Record (https://pkg.go.dev/github.com/jackc/pgtype?tab=doc#Record).
+Row values and composite types are represented as pgtype.Record (https://pkg.go.dev/github.com/khaibin/pgtype?tab=doc#Record).
 It is possible to get values of your custom type by implementing DecodeBinary interface. Decoding into
 pgtype.Record first can simplify process by avoiding dealing with raw protocol directly.
 

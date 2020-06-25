@@ -110,7 +110,7 @@ included below.
 * Errors are now implemented in the Go 1.13 style.
 * `Rows` and `Tx` are now interfaces.
 * The connection pool as been decoupled from pgx and is now a separate, included package (github.com/jackc/pgx/v4/pgxpool).
-* pgtype has been spun off to a separate package (github.com/jackc/pgtype).
+* pgtype has been spun off to a separate package (github.com/khaibin/pgtype).
 * pgproto3 has been spun off to a separate package (github.com/jackc/pgproto3/v2).
 * Logical replication support has been spun off to a separate package (github.com/jackc/pglogrepl).
 * Lower level PostgreSQL functionality is now implemented in a separate package (github.com/jackc/pgconn).

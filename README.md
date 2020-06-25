@@ -171,7 +171,7 @@ from pgx for lower-level control.
 
 This is a `database/sql` compatibility layer for pgx. pgx can be used as a normal `database/sql` driver, but at any time, the native interface can be acquired for more performance or PostgreSQL specific functionality.
 
-### [github.com/jackc/pgtype](https://github.com/jackc/pgtype)
+### [github.com/khaibin/pgtype](https://github.com/khaibin/pgtype)
 
 Over 70 PostgreSQL types are supported including `uuid`, `hstore`, `json`, `bytea`, `numeric`, `interval`, `inet`, and arrays. These types support `database/sql` interfaces and are usable outside of pgx. They are fully tested in pgx and pq. They also support a higher performance interface when used with the pgx driver.
 

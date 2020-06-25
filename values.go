@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/jackc/pgio"
-	"github.com/jackc/pgtype"
+	"github.com/khaibin/pgtype"
 	errors "golang.org/x/xerrors"
 )
 

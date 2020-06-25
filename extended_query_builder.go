@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/jackc/pgtype"
+	"github.com/khaibin/pgtype"
 )
 
 type extendedQueryBuilder struct {
